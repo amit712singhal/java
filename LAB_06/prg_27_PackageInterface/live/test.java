@@ -17,13 +17,13 @@ import LAB_06.prg_27_PackageInterface.live.music.wind.saxophone;
 public class test {
     public static void main(String[] args) {
         System.out.print("Instance of Veena Class : ");
-        veena v = new veena("Amit ");
+        veena v = new veena("Shaswat ");
         v.play();
         System.out.print("Instance of Saxophone Class : ");
-        saxophone s = new saxophone("Amit ");
+        saxophone s = new saxophone("Yash ");
         s.play();
         System.out.println("Instance of Playable Interface ->");
-        playable p = new veena("Amit ");
+        playable p = new veena("Divyam ");
         p.play();
         p = new saxophone("Amit ");
         p.play();

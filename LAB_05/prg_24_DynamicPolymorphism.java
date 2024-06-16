@@ -1,4 +1,4 @@
-//Show Dynamic Polymorphism and Interface Overriding:
+//WAP to Show Dynamic Polymorphism and Interface Overriding:
 
 package LAB_05;
 

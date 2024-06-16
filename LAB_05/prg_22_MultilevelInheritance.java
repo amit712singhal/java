@@ -1,4 +1,4 @@
-//Illustrate Multilevel Inheritance:
+//WAP to Illustrate Multilevel Inheritance:
 
 package LAB_05;
 
