@@ -15,10 +15,16 @@ public class prg_18_InstanceCounter {
         return instanceCount;
     }
 
+    public void display() {
+        System.out.println("Object is used");;
+    }
+
     public static void main(String[] args) {
         // Create instances of the class
         prg_18_InstanceCounter obj1 = new prg_18_InstanceCounter();
         prg_18_InstanceCounter obj2 = new prg_18_InstanceCounter();
+        obj1.display();
+        obj2.display();
 
         // Get and display the instance count
         System.out.println("Number of instances created: " + prg_18_InstanceCounter.getInstanceCount());

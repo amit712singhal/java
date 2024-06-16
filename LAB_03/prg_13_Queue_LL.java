@@ -1,10 +1,10 @@
 package LAB_03;
 
-class Node {
+class Q_Node {
     int data;
-    Node next;
+    Q_Node next;
 
-    public Node(int d) {
+    public Q_Node(int d) {
         data = d;
         next = null;
     }
@@ -12,8 +12,8 @@ class Node {
 
 public class prg_13_Queue_LL {
     static class Queues {
-        public static Node Front;
-        public static Node Rear;
+        public static Q_Node Front;
+        public static Q_Node Rear;
         public static int Size;
 
         boolean IsEmpty() {
@@ -21,7 +21,7 @@ public class prg_13_Queue_LL {
         }
 
         void Enqueue(int data) {
-            Node NewNode = new Node(data);
+            Q_Node NewNode = new Q_Node(data);
             if (IsEmpty()) {
                 Front = Rear = NewNode;
                 Size++;
@@ -37,7 +37,7 @@ public class prg_13_Queue_LL {
                 System.out.println("THE STACK IS EMPTY , DELETION NOT POSSIBLE");
                 return;
             }
-            Node Temp = Front;
+            Q_Node Temp = Front;
             Front = Front.next;
             Temp.next = null;
             Size--;
@@ -65,7 +65,7 @@ public class prg_13_Queue_LL {
 
         void Display() {
             System.out.print("THE QUEUE IS ::: (Front) --> ");
-            Node temp = Front;
+            Q_Node temp = Front;
             while (temp != null) {
                 System.out.print(temp.data + " ");
                 temp = temp.next;

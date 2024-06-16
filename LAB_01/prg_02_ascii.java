@@ -8,7 +8,7 @@ public class prg_02_ascii {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Enter a character: ");
+        System.out.print("\nEnter a character: ");
         char inputChar = scanner.next().charAt(0);
 
         int asciiValue = (int) inputChar;

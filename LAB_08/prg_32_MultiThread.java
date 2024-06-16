@@ -53,6 +53,10 @@ class Producer implements Runnable {
             }
         }
     }
+
+    public void display(){
+        System.out.println("Producer");
+    }
 }
 
 class Consumer implements Runnable {
@@ -76,6 +80,10 @@ class Consumer implements Runnable {
             }
         }
     }
+
+    public void display(){
+        System.out.println("Consumer");
+    }
 }
 
 public class prg_32_MultiThread {
@@ -83,5 +91,7 @@ public class prg_32_MultiThread {
         Base Obj = new Base();
         Producer P = new Producer(Obj);
         Consumer C = new Consumer(Obj);
+        P.display();
+        C.display();
     }
 }

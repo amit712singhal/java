@@ -8,7 +8,7 @@ public class prg_04_swap {
         int a = 5;
         int b = 10;
 
-        System.out.println("Before swapping: a = " + a + ", b = " + b);
+        System.out.println("\nBefore swapping: a = " + a + ", b = " + b);
 
         // Using bitwise XOR to swap values without using a temporary variable
         a = a ^ b;

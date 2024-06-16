@@ -2,8 +2,8 @@
 
 package LAB_07;
 
-class MyException extends Exception {
-    public MyException(String message) {
+class custom_exception extends Exception {
+    public custom_exception(String message) {
         super(message);
     }
 }
@@ -12,7 +12,7 @@ public class prg_29_CustomException {
     public static void CheckException(String Name, int Age) {
         try {
             Check(Name, Age);
-        } catch (MyException e) {
+        } catch (custom_exception e) {
             System.out.println("Error : " + e);
         } finally {
             System.out.println("Finally Program Executed...");
@@ -20,9 +20,9 @@ public class prg_29_CustomException {
         }
     }
 
-    public static void Check(String Name, int Age) throws MyException {
+    public static void Check(String Name, int Age) throws custom_exception {
         if (Age < 18) {
-            throw new MyException(Name + " Is Not Eligible For Voting");
+            throw new custom_exception(Name + " Is Not Eligible For Voting");
         } else {
             System.out.println(Name + " Is Eligible For Voting");
         }
