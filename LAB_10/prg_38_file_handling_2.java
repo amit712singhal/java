@@ -7,7 +7,7 @@ import java.io.*;
 public class prg_38_file_handling_2 {
     public static void main(String[] args) {
         // Specify the file path
-        String filePath = "D:\\My PC\\B.Tech\\LAB-WORK\\Java\\LAB_10\\prg_35_file_handling.txt";
+        String filePath = "./LAB_10/file_handling.txt";
 
         try {
             // Open the file for reading

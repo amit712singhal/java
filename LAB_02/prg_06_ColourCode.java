@@ -8,7 +8,7 @@ public class prg_06_ColourCode {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("\nEnter a colour code (Alphabet): ");
+        System.out.print("Enter a colour code (Alphabet): ");
         char colorCode = scanner.next().charAt(0);
 
         System.out.println("Entered colour code: " + colorCode);

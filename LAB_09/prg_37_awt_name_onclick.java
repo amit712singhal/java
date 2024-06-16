@@ -1,6 +1,6 @@
 //WAP that displays your name whenever the mouse is clicked
 
-package LAB_9;
+package LAB_09;
 
 import javax.swing.*;
 import java.awt.*;

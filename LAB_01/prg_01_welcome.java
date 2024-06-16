@@ -1,6 +1,6 @@
 //Program to accept a String as a command-line argument and print a Welcome message:
 
-package LAB01;
+package LAB_01;
 
 public class prg_01_welcome {
     public static void main(String[] args) {

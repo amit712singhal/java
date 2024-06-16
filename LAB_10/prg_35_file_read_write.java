@@ -8,11 +8,10 @@ import java.util.*;
 public class prg_35_file_read_write {
     public static void main(String args[]) {
         try {
-            File myFile = new File("D:\\My PC\\B.Tech\\LAB-WORK\\Java\\LAB_10\\file_handling.txt");
+            File myFile = new File("./LAB_10/file_handling.txt");
             myFile.createNewFile();
-            FileWriter WriteFile = new FileWriter("D:\\My PC\\B.Tech\\LAB-WORK\\Java\\LAB_10\\file_handling.txt");
-            WriteFile.write("Hello, I Am Amit Singhal\nI Am 18 Years Old\n");
-            WriteFile.write("Java is my Favourite Subject");
+            FileWriter WriteFile = new FileWriter("./LAB_10/file_handling.txt");
+            WriteFile.write("Hello, I Am Amit Singhal\nI Am 18 Years Old\nJava is my Favourite Subject");
             WriteFile.close();
             Scanner sc = new Scanner(myFile);
             while (sc.hasNextLine()) {

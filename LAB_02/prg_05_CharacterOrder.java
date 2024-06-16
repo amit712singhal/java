@@ -7,7 +7,7 @@ public class prg_05_CharacterOrder {
         char char1 = 'b';
         char char2 = 'a';
 
-        System.out.println("\nCharacters in alphabetical order:");
+        System.out.println("Characters in alphabetical order:");
         if (char1 < char2) {
             System.out.println(char1 + " " + char2);
         } else {
